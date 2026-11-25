@@ -2,6 +2,8 @@
 
 [BoxBox](https://github.com/jR4dh3y/BoxBox) (MIT): a self-hosted web file manager with large resumable uploads, previews, a code editor, search and expiring share links. Deploy it on Railway with one click.
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/yPw-5l)
+
 ## What this template runs
 - **boxbox**: `ghcr.io/onepush-dev/boxbox:v0.3.2`, the `ghcr.io/jr4dh3y/boxbox:v0.3.2` image (application unmodified). Web UI on port 8080. One volume at `/data` holds your files (`/data/files`, shown as the `files` drive) and BoxBox's own state.
 
